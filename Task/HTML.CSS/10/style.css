@@ -9,8 +9,12 @@ a {
   text-decoration: none;
 }
 
-header,nav,h2,.main-visual,footer {
-  font-family: Chalkduster,"Bradley Hand",Courier, "Segoe Print", sans-serif;
+header,
+nav,
+h2,
+.main-visual,
+footer {
+  font-family: Chalkduster, "Bradley Hand", Courier, "Segoe Print", sans-serif;
 }
 
 header {
@@ -153,7 +157,7 @@ main {
 }
 
 .common-heading {
-  border-bottom: 8px solid The #f7f7f7;
+  border-bottom: 8px solid #f7f7f7;
   text-align: center;
   line-height: 0.6;
 }
@@ -227,4 +231,106 @@ footer {
 
 .footer-text {
   color: #fff;
+}
+
+@media screen and (max-width: 425px) {
+  header {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .social {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .nav-list {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .nav-list-item {
+    width: 100%;
+    margin: 0 0 10px 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .main-visual-content {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  main {
+    width: 100%;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .blog {
+    width: 100%;
+  }
+}
+
+/*@media screen and (max-width:425px) {
+  .blog-item {
+    width: 50%;
+  }
+}*/
+
+@media screen and (max-width: 425px) {
+  .blog-box {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .blog-image {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .blog-text {
+    padding: 0 0 0 30px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .sidebar {
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .common-heading {
+    padding-top: 50px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .instagram-heading {
+    padding-top: 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .instagram-box {
+    width: 48%;
+    padding-top: 48%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .instagram-box:nth-child(odd) {
+    margin-right: 4%;
+  }
 }
