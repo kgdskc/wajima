@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-visual {
+  width: 100%;
+  height: 400px;
+  background-image: url(img/mv.jpg);
+  background-size: cover;
+  background-position: bottom center;
+}
+
+header h1 {
+  color: #848282;
+  padding: 20px;
+}
+/* mainにmargin50pxを適用する */
+.blog {
+  width: 840px;
+  margin: 50px auto 0 auto;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #848282;
+}
+
+.blog2 {
+  width: 840px;
+  margin: 30px auto 0 auto;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #848282;
+}
+
+.blog3 {
+  width: 840px;
+  margin: 30px auto 50px auto;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #848282;
+}
+
+.blog-text {
+  color: #848282;
+}
